@@ -1,0 +1,77 @@
+Prof Atanga.
+Contacts: +237 652 177 151
+WebSite : http://solavisetech.com/
+Email: ndecalamba@gmail.com
+GIT AND GITHUB 1
+Software Development lifecycle (SDLC)
+Develops, Tests, Builds, deploys & monitors applications Applications are the output from Software
+
+Releases:
+Releasing an application is taking/deploying it to the client.
+
+In realtime we have multiple Releases.
+
+release1 = version1 = 1000lines of code
+echo 'Hello, welcome to Primus Learning'
+
+release2 = version2 = 2000lines of code
+echo 'Welcome to Paypal'.
+
+echo "Your convenient payment gateway".
+
+Release3 = version3 = 1000 lines of code
+echo "Paypal the best payment gateway"
+
+Rollout --> version1 --> version2 ---> version3
+RollBack --> version3 --> version2
+
+The client is not happy with the latest version of the application.
+What can be done??? We RollBack
+
+Versioning in Software Development:
+Version control systems = VCS:
+
+A) Local system:
+Developers coding using thier local system e.g laptop
+
+version1, (1000LINES)
+
+version2,[5000LINES ]
+
+version3 [2000LINES ]
+
+cons:
+Single point of failure
+lacks collaboration
+in-efficient use of resources including time
+can't RollBack
+Apart of the local system, we also have what is known as the centralize system; With this kind of a system, there is a central system, i.e we create a server, where when developers write their codes, they can commit it to the server and save it there Here, there is a level of some collaboration, but the major problem here is that, we can't rollback and the server can go down (fail at anytime), so this method is also not really secured
+
+B) Centralised: cons:
+-can't RollBack.
+
+-The central server can fail.
+
+To that effect, we have what is known as the distributed version control system.
+
+GIT => distributed version control system (DVCs)
+
+Git manages data as snapshot
+It takes a picture of what all your file looks like at that and stores them, and we can make a reference of that snapshot.
+
+Benefits of Git
+With Git;
+
+Developers can collaborate
+
+Here, we have a distributed version control system
+
+ For each developer, we have to make sure that Git is install
+ in their local environment.
+ And they can write codes and commit it to the remote server 
+ and that remote environment is known as GITHUB
+Github is a source code manager (SCM)
+
+Github => SCM
+
+With Git;
